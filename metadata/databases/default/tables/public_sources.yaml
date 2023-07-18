@@ -1,3 +1,11 @@
 table:
   name: sources
   schema: public
+array_relationships:
+  - name: media
+    using:
+      foreign_key_constraint_on:
+        column: source
+        table:
+          name: media
+          schema: public
