@@ -1,0 +1,3 @@
+table:
+  name: sources
+  schema: public
